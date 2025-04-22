@@ -3,8 +3,8 @@
 Comando no terminal:
 	
 	gcc arquivo.c -o nome_bin
-			|			|
-			V 			V
+ 		|		|
+		V 		V
 	Nome do arquivo		Nome do arquivo binário (pode escolher)
 
 
