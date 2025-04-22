@@ -3,10 +3,8 @@
 Comando no terminal:
 	
 	gcc arquivo.c -o nome_bin
- 		|		|
-		V 		V
-	Nome do arquivo		Nome do arquivo binário (pode escolher)
 
+*"arquivo.c" é o nome do arquivo que será compilado, e nome_bin é algo que pode ser escolhido na hora da compilação (e será criado um arquivo executável com esse nome)*
 
 **O compilador irá verificar erros de sintaxe e em seguida compilar, caso não haja nenhum erro.**
 
