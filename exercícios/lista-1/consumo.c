@@ -1,16 +1,15 @@
 #include <stdio.h>
 
-double quantoGasto(int x, double y){
-	y = x/y;
-	return y;
-}
-
 int main(){
+	
 	int km;
-	double litros;
+	double l;
 
-	scanf("%d %lf", &km, &litros);
-	printf("%.3lf km/l\n", quantoGasto(km, litros));
+	scanf("%d\n%lf", &km, &l);
+
+	l = km/l;
+
+	printf("%.3lf km/l\n", l);
 
 	return 0;
 }
